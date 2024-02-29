@@ -14,7 +14,14 @@ button {
     cursor: pointer;
 }
 
-/* header */
+/* ==============header=============== */
+
+.heder {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
+    background: #fff;
+}
 
 .heder-nav {
 
@@ -37,7 +44,7 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;;
+    color: #4d5ae5;
 }
 
 .header-menu-list {
@@ -54,17 +61,146 @@ button {
 }
 
 .header-adr {
+    font-style: normal;
     }
 
 .header-adr-list {}
 
 .header-adr-item {
-    
 }
 
-.header-adr-link {font-weight: 400;
+.header-adr-link {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+/* ============================= */
+
+/* ==============hero=============== */
+
+.hero {
+    background: #2e2f42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-title-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+}
+
+/* ============================= */
+
+/* ==============solution=============== */
+
+.solution {}
+
+.solution-list {}
+
+.solution-item {}
+
+.solution-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.solution-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ============================= */
+
+/* ==============team=============== */
+
+.team {
+    background: #f4f4fd;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-item-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-item-prof {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+/* ============================= */
+
+/* ==============footer=============== */
+
+.footer {
+    background: #2e2f42;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.footer-logo-color {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
