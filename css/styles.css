@@ -33,7 +33,7 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .header-logo-color {
@@ -43,7 +43,11 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #2e2f42;
+}
+
+.header-logo-color:hover {
+    color: #404BBF
 }
 
 .header-menu-list {
@@ -57,6 +61,11 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404BBF
 }
 
 .header-adr {
@@ -74,6 +83,11 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.header-adr-link:hover,
+.header-adr-link:focus {
+    color: #404BBF
 }
 
 /* ============================= */
@@ -94,6 +108,7 @@ button {
 }
 
 .hero-title-btn {
+    background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -102,11 +117,18 @@ button {
     color: #fff;
 }
 
+.hero-title-btn:hover,
+.hero-title-btn:focus {
+    color: #404BBF
+}
+
 /* ============================= */
 
 /* ==============solution=============== */
 
-.solution {}
+.solution {
+    background-color: #FFFFFF
+}
 
 .solution-list {}
 
@@ -183,7 +205,7 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
 .footer-logo-color {
@@ -193,7 +215,7 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .footer-text {
