@@ -194,6 +194,46 @@ button {
 
 /* ============================= */
 
+/* ==============portfolio=============== */
+
+.portfolio {
+    background: #ffffff;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;    
+}
+
+.portfolio-list {}
+
+.portfolio-item {
+    background-color: #ffffff;
+}
+
+.portfolio-item-sort {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-item-prof {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ============================= */
+
 /* ==============footer=============== */
 
 .footer {
@@ -227,3 +267,4 @@ button {
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
+
