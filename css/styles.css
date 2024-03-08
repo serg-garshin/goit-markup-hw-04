@@ -36,11 +36,13 @@ button {
     padding: 0 15px;
     margin: 0 auto;
 }
-
+ img {
+    display: block;
+ }
 /* ==============header=============== */
 
 .heder {
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -123,6 +125,12 @@ button {
 
 /* ==============hero=============== */
 
+.hero-container {
+    display: block;
+    align-items: center;
+    padding: 188px 0 188px;
+}
+
 .hero {
     background: #2e2f42;
 }
@@ -134,6 +142,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
 }
 
 .hero-title-btn {
@@ -144,6 +153,12 @@ button {
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
+    min-width: 169px;
+    height: 56px;
+    display: block;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .hero-title-btn:hover,
