@@ -54,7 +54,7 @@ button {
  }
 /* ==============header=============== */
 
-.heder {
+.header {
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -232,7 +232,7 @@ button {
     padding: 120px 0;
 }
 
-container {
+.container {
 }
 
 .team-title {
@@ -246,7 +246,10 @@ container {
     margin-bottom: 72px;
 }
 
-.team-list {}
+.team-list {
+    display: flex;
+    gap: 24px;
+}
 
 .team-item-mark,
 .team-item-tom,
@@ -255,6 +258,8 @@ container {
     background-color: #ffffff;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 }
 
 .team-name{
@@ -286,6 +291,7 @@ container {
 
 .portfolio {
     background: #ffffff;
+    padding: 120px 0;
 }
 
 .portfolio-title {
@@ -295,13 +301,29 @@ container {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    color: #2e2f42;    
+    color: #2e2f42;
+    margin-bottom: 72px;    
 }
 
-.portfolio-list {}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 
-.portfolio-item {
+.portfolio-item-banking,
+.portfolio-item-cashless,
+.portfolio-item-meditation,
+.portfolio-item-taxi,
+.portfolio-item-screen,
+.portfolio-item-courses {
     background-color: #ffffff;
+    width: calc((100% - 48px) / 3);
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .portfolio-item-sort {
