@@ -137,10 +137,10 @@ button {
 .header-adr-list {
     display: flex;
     gap: 40px;
+    transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-adr-item {
-    transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-adr-link {
